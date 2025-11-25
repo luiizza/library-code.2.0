@@ -30,6 +30,8 @@ int main() {
             break;
         }
 
+        // Task 2 – Borrowing logic added
+        
         bool found = false;
         for (int i = 0;  i < 5; i++) {
             if (Library[i].getTitle() == inputTitle) {
