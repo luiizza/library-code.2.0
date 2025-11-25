@@ -1,3 +1,4 @@
+// Task 3 – Hardcopy/EBook and sorting added
 //Methods from book.h
 
 #include "book.h"
@@ -25,7 +26,7 @@ void Book::borrowBook() {
     }
 }
 
-//This method returns the book�s title
+//This method returns the book’s title
 
 std::string Book::getTitle() {
     return title;
